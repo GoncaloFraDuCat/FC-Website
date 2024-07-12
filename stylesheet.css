@@ -1,0 +1,99 @@
+body {
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--background-color);
+  color: white;
+  background-color: black;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+nav {
+  height: 110px;
+}
+
+section {
+  min-height: calc(100vh - 81.5px);
+}
+
+div {
+  min-height: fit-content !important;
+}
+
+img {
+  max-height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-right: 50vh;
+  gap: 50px;
+}
+
+.navbar {
+  list-style-type: none;
+  padding: 10px;
+  margin-top: 5vh;
+  /* overflow: hidden; */
+  top: 0;
+  width: 120%;
+  z-index: 999;
+  border-color: darkslategrey;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+  font-style: normal;
+  text-decoration: none;
+  font-size: smaller;
+  font-weight: unset;
+}
+
+
+.web-title {
+  display: flex;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.sig {
+  width: 200px;
+  height: auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-style: normal;
+  font-style: none;
+  color: white;
+}
+
+.navbar a:hover {
+  background-color: red;
+  border-radius: 5%;
+  padding: 7%;
+  font-size: larger;
+}
+
+.homepage {
+  background-image: url(images/kiko-black.jpg);
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-position: center;
+}
