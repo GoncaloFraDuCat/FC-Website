@@ -3,18 +3,35 @@
 
 <head>
   <title>My First Web Page</title>
-  <relink href="styles.css" type="text/css">
-    <charset="utf-8">
+  <link rel="stylesheet" href="stylesheet1.css"> <charset="utf-8">
 </head>
 
 <body>
-  <h1>Welcome to my first web page!</h1>
-  <p>This is a paragraph.</p>
-  <p>This is another paragraph.</p>
-  <p>Here is a link to the homepage:</p>
-  <a href="index.html">HomePAGE</a>
-  <h1 style="color: red;">This is a red heading</h1>
-  <h2 style="color: blue;">This is a blue heading</h2>
+  <div class="header">
+    <div class="web-title">
+      <img src="images/signature.png" class="sig" alt="">
+    </div>
+
+    <nav>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#lessons">Lessons</a></li>
+        <li><a href="#contact-me">Contact Me</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <section id="homepage">
+    <div class="banner">
+      <img src="images/kiko-1.jpg" class="banner-img" alt="">
+    </div>
+    <div class="bio">
+      <img src="images/frank-title-bio.png" class="bio-img" alt="">
+    </div>
+  </section>
+
 </body>
 
 </html>

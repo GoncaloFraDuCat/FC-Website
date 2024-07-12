@@ -4,8 +4,8 @@ body {
   font-weight: 400;
   font-style: normal;
   background-color: var(--background-color);
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -34,29 +34,30 @@ img {
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: LEFT;
   flex-direction: row;
   padding-right: 50vh;
-  gap: 50px;
+  gap: 140px;
+  border-bottom-style: inset;
+  padding-left: 6vh;
 }
 
 .navbar {
   list-style-type: none;
-  padding: 10px;
+
   margin-top: 5vh;
-  /* overflow: hidden; */
-  top: 0;
+
+
   width: 120%;
   z-index: 999;
   border-color: darkslategrey;
   background-color: transparent;
   display: flex;
-  justify-content: center;
+
   gap: 4%;
   font-style: normal;
   text-decoration: none;
-  font-size: smaller;
-  font-weight: unset;
+
 }
 
 
@@ -65,7 +66,7 @@ img {
   font-size: 1.5em;
   font-weight: 700;
   font-style: normal;
-  color: white;
+  color: black;
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -81,7 +82,7 @@ img {
   text-decoration: none;
   font-style: normal;
   font-style: none;
-  color: white;
+  color: black;
 }
 
 .navbar a:hover {
@@ -91,10 +92,32 @@ img {
   font-size: larger;
 }
 
-.homepage {
-  background-image: url(images/kiko-black.jpg);
-  background-repeat: no-repeat;
-  justify-content: center;
-  background-position: center;
-  background-size: cover;
+.banner {
+  display: flex;
+
+}
+
+.banner img {
+  height: 93vh;
+  mask-repeat: no-repeat;
+}
+
+#homepage {
+  display: flex;
+  flex-direction: row;
+  gap: 20vh;
+  align-items: center;
+}
+
+.bio-img {
+  width: 82%;
+
+}
+
+
+bio {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
 }
