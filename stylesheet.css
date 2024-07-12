@@ -38,18 +38,18 @@ img {
   flex-direction: row;
   padding-right: 50vh;
   gap: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: black;
 }
 
 .navbar {
   list-style-type: none;
   padding: 10px;
   margin-top: 5vh;
-  /* overflow: hidden; */
-  top: 0;
   width: 120%;
-  z-index: 999;
   border-color: darkslategrey;
-  background-color: transparent;
   display: flex;
   justify-content: center;
   gap: 4%;
@@ -57,6 +57,7 @@ img {
   text-decoration: none;
   font-size: smaller;
   font-weight: unset;
+  background-color: black;
 }
 
 
@@ -97,4 +98,70 @@ img {
   justify-content: center;
   background-position: center;
   background-size: cover;
+}
+
+.insta {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  min-height: calc(10vh);
+
+}
+
+.insta-pic {
+  width: 60%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.insta-button {
+  background-image: url(images/follow-button.png);
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  margin: 3vh;
+  padding: 0;
+  gap: 10px;
+  width: 17vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.bio-pic {
+  background-image: url(images/FCAT1.png);
+  background-position: center;
+  width: 50%;
+  background-size: cover;
+}
+
+.bio-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10vh;
+  font-family: "times new roman";
+  line-height: 2.5;
+  font-size: larger;
+
+}
+
+.lessons-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+  margin: 5vh;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: wheat;
 }
